@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap");
+body {
+  margin: 0;
+}
+.white {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.parent {
+  margin: auto;
+  width: 915px;
+  height: 500px;
+  align-self: center;
+  display: flex;
+  background-color: aqua;
+  border-radius: 10px;
+}
+.parent > * {
+  padding: 50px;
+}
+.parent h1 {
+  font-family: antonio;
+}
+.parent .one {
+  background-color: #e28525;
+  border-radius: 10px 0 0 10px;
+  width: 100%;
+}
+.one * {
+  color: white;
+}
+.one p {
+  font-family: mulish;
+}
+.parent .two {
+  width: 100%;
+  background-color: #316a72;
+}
+.two * {
+  color: white;
+}
+.two p {
+  font-family: mulish;
+}
+.parent .three {
+  width: 100%;
+  border-radius: 0 10px 10px 0;
+  background-color: #1c413f;
+}
+.three * {
+  color: white;
+}
+.three p {
+  font-family: mulish;
+}
+button {
+  background-color: inherit;
+  border-radius: 45px;
+  height: 45px;
+  width: 140px;
+  border-color: white;
+  position: relative;
+  top: 80px;
+}
+button:hover {
+  cursor: pointer;
+}
